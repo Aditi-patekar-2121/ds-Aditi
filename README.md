@@ -40,11 +40,11 @@ class DoublyLinkedList:
                 
 dList = DoublyLinkedList();    
 #Add nodes to the list    
-dList.addNode(1);    
-dList.addNode(2);    
-dList.addNode(3);    
-dList.addNode(4);    
-dList.addNode(5);    
+dList.addNode(21);    
+dList.addNode(22);    
+dList.addNode(23);    
+dList.addNode(24);    
+dList.addNode(25);    
      
 #Displays the nodes present in the list    
 dList.display();
