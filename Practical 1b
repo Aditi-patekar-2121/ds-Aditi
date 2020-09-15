@@ -1,0 +1,29 @@
+b. Write a program to perform the Matrix addition, Multiplication and Transpose 
+Operation
+
+
+1)matrix addition
+
+import numpy as np
+M1 = np.array([[5, 8, 9], [5, -10, 15], [-7, 14, 21]])
+M2 = np.array([[12, -18, 21], [11, 22, 33], [13, -26, 39]])
+M3 = M1 + M2  
+print(M3)
+
+2)multiplication
+
+import numpy as np
+
+M1 = np.array([[18, 21], [25, -10]])
+M2 = np.array([[12, -18], [21, 22]])
+M3 = M1.dot(M2)  
+print(M3)
+
+3) transpose
+
+import numpy as np
+
+M1 = np.array([[31, 16, 19], [15, -10, 25], [41,18,12]])
+M2 = M1.transpose()
+
+print(M2)
